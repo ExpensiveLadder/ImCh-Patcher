@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NX9kxgZMA7Hf8D0SBjGAft7FPAc0O7ilf+NZ673khUSI4rzf7oD+xkFjj9yRjah7HoFMzDqTBuQGF+Aob2MXOw==",
+  "dgSpecHash": "IrKn9WsVP0uGxx2jMDX0agehIfmOXorJHa5xJLYqzsn2tOHgVh8tDb/ReHj6W9p6+Gk2gorSNlHNeMNiy73kGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Games\\Modding\\Things\\Synthesis Patchers\\ImCh Patcher\\ImChPatcher\\ImChPatcher.csproj",
+  "projectFilePath": "c:\\Users\\danie\\Games\\Modding\\Things\\Synthesis Patchers\\ImCh Patcher\\ImChPatcher\\ImChPatcher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\dotnetzip\\1.15.0\\dotnetzip.1.15.0.nupkg.sha512",
@@ -18,6 +18,7 @@
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.core\\0.26.0\\mutagen.bethesda.core.0.26.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.core.windows\\0.26.0\\mutagen.bethesda.core.windows.0.26.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.fallout4\\0.26.0\\mutagen.bethesda.fallout4.0.26.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.formkeys.skyrimse\\1.0.0\\mutagen.bethesda.formkeys.skyrimse.1.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.kernel\\0.26.0\\mutagen.bethesda.kernel.0.26.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.oblivion\\0.26.0\\mutagen.bethesda.oblivion.0.26.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mutagen.bethesda.skyrim\\0.26.0\\mutagen.bethesda.skyrim.0.26.0.nupkg.sha512",
@@ -38,11 +39,8 @@
     "C:\\Users\\danie\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.12\\microsoft.netcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.12\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.12\\microsoft.aspnetcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
   ],
   "logs": []
 }
