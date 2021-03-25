@@ -15,14 +15,8 @@ namespace ImChPatcher
         {
             return await SynthesisPipeline.Instance
                 .AddPatch<ISkyrimMod, ISkyrimModGetter>(RunPatch)
-                .Run(args, new RunPreferences()
-                {
-                    ActionsForEmptyArgs = new RunDefaultPatcher()
-                    {
-                        IdentifyingModKey = "ImChPatch.esp",
-                        TargetRelease = GameRelease.SkyrimSE,
-                    }
-                });
+                .SetTypicalOpen(GameRelease.SkyrimSE, "ImChPatch.esp")
+                .Run(args);
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state){
@@ -36,7 +30,7 @@ namespace ImChPatcher
                 if (furnitureGetter.InteractionKeyword == Skyrim.Keyword.ActorTypeNPC && !furnitureGetter.MajorFlags.HasFlag(Furniture.MajorFlag.ChildCanUse)) {
                     var furniture = state.PatchMod.Furniture.GetOrAddAsOverride(furnitureGetter);
 
-                    furniture.InteractionKeyword = keyword_IsAdultRace;
+                    furniture.InteractionKeyword.SetTo(keyword_IsAdultRace);
                 }
             }
 
